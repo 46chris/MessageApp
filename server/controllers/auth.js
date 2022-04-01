@@ -7,6 +7,7 @@ const crypto = require('crypto');
 //NOTE!!! getstream is the company's activity feed API whereas Streamchat is their 
 //chat API. Both have their own auth functions. 
 
+//https://www.youtube.com/watch?v=MJzbJQLGehs 1hr 31 min 
 const api_key = process.env.STREAM_API_KEY; 
 const api_secret = process.env.STREAM_API_SECRET; 
 const app_id = process.env.STREAM_API_ID; 
